@@ -1,0 +1,32 @@
+/*
+EM = es un acrónimo de elemento y lo que hace es tomar el tamaño de fuente que tenga el padre directo ejemplo: 
+.container {
+  font-size: 20px;
+}
+. .container div {
+  font-size: 2em;
+}
+aquí los tamaños del div que esta dentro de la clase container tendrá un tamaño de 40px;
+-1em = 20px
+- al asignárselo dos em seria = 20px + 20px.
+Y en el siguiente caso;
+.container {
+  font-size: 20px };
+.container div {
+  font-size: 2em };
+.container div p {
+  font size: 1.5}
+en este caso va tomando referencia padre siguiendo la jerarquía de el anidamiento de las etiquetas.
+*/
+
+body {
+  font-size: 10px;
+}
+
+.text-container {
+  font-size: 1.5em;
+}
+
+.text-container div {
+  font-size: 1.5em;
+}

@@ -1,0 +1,21 @@
+/* REM: Funciona igual que em, con la diferencia que es relativo al valor de la fuente del elemento html, y no tiene en cuenta el valor del elemento que lo contiene.
+    Por defecto el html en el navegador viene con un tamaño de fuente de 16px así que siempre 1REM = 15PX; Para aplicar REM de una forma sencilla, se escribe en el CSS
+    html{font-size: 62.5%;} ---> 1.5rem equivale a 15px... 3rem equivale a 30px... 2.5rem equivale a 25px.
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+main div {
+  font-size: 1.6rem;
+}

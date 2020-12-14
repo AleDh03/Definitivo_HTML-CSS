@@ -1,0 +1,17 @@
+/* Medida absoluta: el valor de esta no cambia  y siempre sera el mismo así la pagina cambie su tamaño, le medidas absolutas son:
+    mm = mili metros.
+    cm = centi metros
+    in = pulgada.
+    pc = picas.
+    px = pixel.
+
+    Medidas relativas: estás heredan el tamaño o se basan en algún tamaño qye se allá seleccionado y el valor según si la pagina
+    cambia de tamaño, las medidas relativas son:
+    %
+    em
+    rem
+*/
+
+p {
+  font-size: 18px;
+}
